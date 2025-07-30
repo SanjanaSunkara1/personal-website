@@ -1,0 +1,130 @@
+
+.awards-main {
+  background: linear-gradient(to bottom, #d7f9f4, #e8f9fd);
+  padding: 3em 0;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Arial', sans-serif;
+  color: #003046;
+}
+
+.awards-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.award-item {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  padding: 1.5em;
+  margin-bottom: 2em;
+  gap: 1.5em;
+}
+
+.award-item:last-child {
+  margin-bottom: 0;
+}
+
+.award-images-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.award-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  background-color: #0D9C90;
+  border-radius: 8px;
+  border: 1px solid #0D9C90;
+  padding: 0.2em;
+  box-sizing: border-box;
+}
+
+.award-images-group .award-image {
+    width: 200px; 
+    height: 200px; 
+}
+
+
+.award-description {
+  flex-grow: 1;
+  font-size: 1.4em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.award-description p {
+    margin: 0;
+}
+
+.award-description p strong {
+    color: #0D9C90;
+}
+
+
+@media (max-width: 900px) {
+  .awards-container {
+    width: 95%;
+  }
+  .award-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+    gap: 1em;
+  }
+  .award-images-group {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5em;
+  }
+  .award-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+  }
+  .award-images-group .award-image {
+      width: 150px; 
+      height: 150px;
+  }
+  .award-description {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .awards-main {
+    padding: 2em 0;
+  }
+  .award-item {
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+  }
+  .award-images-group {
+      flex-direction: column;
+  }
+  .award-image {
+    width: 160px;
+    height: 160px;
+  }
+  .award-images-group .award-image {
+      width: 120px; 
+      height: 120px;
+  }
+  .award-description {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,394 @@
+
+.graphic-main {
+  background-color: #2d2926;
+  padding: 2em;
+  min-height: calc(100vh - 60px);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.project-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.project-title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  text-align: left; 
+  border-bottom: 2px solid #b21d2f; 
+  padding-bottom: 0.5em;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 2em; 
+  align-items: start;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.palette-fonts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.small-section {
+  padding: 1em;
+}
+
+.small-section .section-heading {
+  font-size: 1.4em; 
+  margin-bottom: 0.8em;
+}
+
+.bottom-sections {
+  grid-column: 1 / -1; 
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.section-box {
+  background-color: rgba(255, 255, 255, 0.05); 
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 2.5em; 
+}
+
+.section-heading {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffb924; 
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+  padding-bottom: 0.5em;
+}
+
+.about-company p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.logo-display {
+  display: flex;
+  flex-direction: column; 
+  gap: 1.5em;
+  align-items: flex-start; 
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.logo-item img {
+  max-width: 220px; 
+  height: auto;
+  object-fit: contain;
+  background-color: white; 
+  padding: 0.1em; 
+  border-radius: 4px;
+}
+
+.logo-item p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+.sketches-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 0.8em; 
+}
+
+.sketch-img {
+  width: 100%;
+  height: auto;
+  max-height: 120px; 
+  object-fit: contain;
+  background-color: white; 
+  padding: 0.1em; 
+  border-radius: 4px;
+}
+
+.color-swatches {
+  display: flex;
+  gap: 0.8em;
+  justify-content: flex-start; 
+}
+
+.color-swatch {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3); 
+}
+
+.font-display {
+  text-align: center; 
+  background-color: white;
+  color: #2d2926; 
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.font-sample {
+  font-family: 'Arial', sans-serif; 
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.final-logos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 1em;
+  justify-content: center; 
+}
+
+.final-logo-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: white; 
+  padding: 0.1em; 
+  border-radius: 4px;
+}
+
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+  gap: 1.5em;
+  justify-items: center; 
+  align-items: center; 
+}
+
+.card-mockups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.app-item img, .card-mockups img {
+  width: 100%; 
+  height: auto; 
+  max-height: 400px; 
+  object-fit: contain;
+  background-color: white; 
+  padding: 0.1em;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.poster-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 1.5em;
+    justify-items: center;
+    align-items: start;
+}
+
+.poster-img {
+    width: 100%;
+    height: auto;
+    max-height: 350px; 
+    object-fit: contain;
+    background-color: white;
+    padding: 0.1em; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.poster-recreation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 1.5em;
+    justify-items: center;
+    align-items: start;
+}
+
+.poster-recreation-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 0.5em; 
+}
+
+.poster-recreation-item p {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.holiday-graphics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+.holiday-img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+    background-color: white;
+    padding: 0.1em;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.christmas-graphics {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.christmas-graphics .holiday-img {
+    max-height: 120px; 
+    width: auto; 
+}
+
+.sticker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 1.5em;
+    justify-items: center;
+    align-items: center;
+}
+
+.sticker-img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    object-fit: contain;
+    background-color: white;
+    padding: 0.1em;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.poster-design .section-heading {
+  font-size: 3em;
+  margin-bottom: 1.5em; 
+  border-bottom: 2px solid #b21d2f; 
+  padding-bottom: 0.5em; 
+  color: white; 
+}
+
+
+@media (max-width: 900px) {
+  .project-container {
+    padding: 1em; 
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+
+  .left-column {
+    gap: 1.5em; 
+  }
+
+  .palette-fonts-container {
+    grid-template-columns: 1fr; 
+    gap: 1em;
+  }
+
+  .bottom-sections {
+    grid-template-columns: 1fr; 
+  }
+
+  .project-title {
+    font-size: 2.5em;
+  }
+
+  .section-heading {
+    font-size: 1.5em;
+  }
+
+  .applications-grid,
+  .poster-grid,
+  .poster-recreation-grid,
+  .holiday-graphics-grid,
+  .sticker-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .app-item img, .card-mockups img,
+  .poster-img,
+  .holiday-img,
+  .sticker-img {
+    max-width: 80%; 
+  }
+
+  .christmas-graphics {
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+
+  .poster-design .section-heading {
+    font-size: 2.5em; 
+  }
+}
+
+@media (max-width: 600px) {
+  .project-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .section-box {
+    padding: 1em;
+  }
+
+  .section-heading {
+    font-size: 1.3em;
+    margin-bottom: 0.8em;
+  }
+
+  .logo-item img {
+    max-width: 100px; 
+  }
+
+  .logo-item p {
+    font-size: 1em;
+  }
+
+  .font-sample {
+    font-size: 2em;
+  }
+
+  .christmas-graphics {
+    flex-direction: column; 
+  }
+
+  .poster-design .section-heading {
+    font-size: 2em; 
+  }
+}
