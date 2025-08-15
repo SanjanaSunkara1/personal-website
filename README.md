@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Website 🎨
 
 I built [this website](https://cff44a11-bb1c-4583-a46c-5a660952b5a4-00-gsekajn2tmbn.spock.replit.dev/index.html) using HTML and CSS on Replit to showcase my interests and some of the projects I've worked on. Feel free to click around and take a look!
 
